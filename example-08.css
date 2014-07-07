@@ -6,18 +6,42 @@
 /* Example 08 */
 
 .container {
-	width: 1024px;
+	width: 100%;
 	margin: 0 auto;
+	float: inline-block;
+
 }
 
-.header {}
+.header {
+
+	float: top;
+}
 
 
-.sidebar {}
+.sidebar {
 
-.main-content {}
+	float: left;
+	height: 300px;
+	width: 20%
+}
 
-.sub-content {}
+.main-content {
+
+	float: left;
+	height: 300px;
+	width: 45%
+}
+
+.sub-content {
+
+	float: left;
+	height: 300px;
+	width: 35%;
+
+}
 
 
-.footer {}
+.footer {
+
+	clear: both;
+}

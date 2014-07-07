@@ -11,10 +11,15 @@
 }
 
 
-.main-content {}
+.main-content {
+
+	display: inline-block;
+	width: 100%;
+}
 /* hint! what do you need to add here? */
 
 .widget {
+	float: left;
 	/* how do you make the widgets float next to each other? */
 	/* what happens when you change float left to float right? why? */
 }
@@ -22,6 +27,7 @@
 
 .footer {
 	/* hint! */
+	clear: both;
 }
 
 
